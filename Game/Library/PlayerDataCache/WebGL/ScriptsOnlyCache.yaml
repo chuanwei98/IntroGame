@@ -29,7 +29,6 @@ ScriptsOnlyBuild:
     - Unity.AI.Navigation.NavMeshSurface
     Unity.CollabProxy.Editor.dll:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
-    - Unity.Cloud.Collaborate.UserInterface.WindowCache
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -62,6 +61,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   serializedClasses:
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputSettings/iOSSettings
+    - UnityEngine.InputSystem.iOS.PrivacyDataUsage
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -1586,4 +1588,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/chuan/Documents/GitHub/GameCW/Game/Build2
+  playerPath: C:/Users/chuan/Documents/GitHub/IntroGame/Game/Build2
